@@ -8,6 +8,11 @@ body {
   background: linear-gradient(to right, #1a1a1a 30%, #fff 30%);
   font-family: "Noto-serif";
 }
+@media screen and (min-width: 1920px) {
+  body {
+    background: linear-gradient(to right, #1a1a1a 40%, #fff 40%);
+  }
+}
 
 img, svg, picture {
   max-width: 100%;
